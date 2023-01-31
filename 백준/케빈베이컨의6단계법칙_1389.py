@@ -24,8 +24,7 @@ minn = inf
 ans = 0
 for i in range(n):
     su = sum(arr[i][:])
-    print(su)
     if su < minn:
         minn = su
-        ans = i
+        ans = i+1
 print(ans)
