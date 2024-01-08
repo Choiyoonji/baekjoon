@@ -19,8 +19,8 @@ int main(){
 				t++;
 				v[i]=1;
 			}	
-		}
+		} 
 		q.pop();
 	}
-	printf("%d",t-1);
+	printf("%d",max(0,t-1));
 }
